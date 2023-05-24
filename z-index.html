@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-index</title>
+</head>
+<style>
+    h1{ font-size: 50px;
+    color: rgb(0, 247, 255); font-family: arial ; text-shadow: 4px 4px 2px rgb(47, 0, 255) ,5px 5px 4px  rgb(255, 0, 98) ,8px 8px 6px  rgb(0, 255, 76)}
+ div {  
+ width: 200px; 
+    height: 200px;
+    position: absolute ;
+    border: 4px solid black;
+}
+
+#box1{
+    background-color: rgb(19, 45, 66);
+    top: 150px;left: 200px;
+}
+#box2{
+    background-color: rgb(19, 66, 54);
+    top: 200px;left: 250px;
+    z-index: 1;
+}
+#box3{
+    background-color: rgb(129, 173, 46);
+    top: 250px;left: 300px;
+}
+#box4{
+    background-color: rgb(146, 50, 122);
+    top: 300px;left: 350px;
+   
+}
+</style>
+<body>
+    
+<h1>Z-INDEX</h1>
+
+<div id="box1">A</div>
+
+<div id="box2">B</div>
+<div id="box3">C</div>
+<div id="box4">D</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
